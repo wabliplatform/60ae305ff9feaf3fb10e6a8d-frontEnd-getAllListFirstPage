@@ -8,7 +8,7 @@
     "postinstall":"npm run build",
     "test": "mocha --require @babel/register --recursive",
     "build": "webpack --mode development",
-    "start": "node ./index.js",
+    "start": "node index.js",
     "build-and-start": "npm run build && npm run start"
   },
   "browser": {
