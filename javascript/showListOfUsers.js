@@ -4,4 +4,4 @@ let apiUserApi = new TempApi.UserApi();import TempApi from '../src/index';window
         try { if(subListElement[i].getAttribute('annotationname') === "username") subListElement[i].textContent = data[i].username ; } catch (e) { console.log(e) };
       }
     });
-    [...subListElement].forEach((element,index) => {if(index > data.length) subListElement[index].remove()})}});};
+    [...subListElement].forEach((element,index) => {if(index > data.length) subListElement[index].remove()})}});};document.getElementById('ikx3t').onclick = () => {{ location.href= '/Page1';}};document.getElementById('i61y9').onclick = () => {{ location.href= '/tableOfUsers';}};
