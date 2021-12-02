@@ -14,6 +14,6 @@ jobs:
           password: ${{ secrets.WABLI_SERVER_SSH_PASSWORD }}
           port: ${{ secrets.WABLI_SERVER_SSH_PORT }}
           script: >-
-            ./wabli-applications/deploy.sh -b main -d undefined -r
+            ./wabli-applications/deploy.sh -b main -d laughing-invention -r
             https://github.com/wabliplatform/frontEnd-getAllListFirstPage.git -f
             frontEnd-getAllListFirstPage
